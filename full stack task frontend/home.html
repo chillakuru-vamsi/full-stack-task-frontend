@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+
+    <nav class="navbar">
+
+        <h2>HOME PAGE</h2>
+
+        <button
+            class="logout-btn"
+            onclick="logout()">
+            Logout
+        </button>
+
+    </nav>
+
+    <section class="home-content">
+
+        <h1 id="userName"></h1>
+
+        <p>
+            You have successfully logged into the application.
+        </p>
+
+        <div class="info-box">
+
+           
+
+            
+         <h3>⚙️ How It Works</h3>
+
+            <ol>
+                <li>User registers with details</li>
+                <li>Data is saved in Local Storage</li>
+                <li>User logs in using same credentials</li>
+                <li>System checks stored data</li>
+                <li>If valid → redirect to Home page</li>
+                <li>If invalid → error message shown</li>
+            </ol>
+
+        </div>
+           
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
